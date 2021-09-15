@@ -10,7 +10,7 @@ public class Application {
         int a = sc.nextInt();
         int[] zzz = {5000, 2000, 1000, 500, 200, 100, 50, 20, 10, 5, 2, 1};
         for (int i = 0; i < zzz.length; i++) {
-            int x = a/zzz[i];
+            int x = a / zzz[i];
             a = a % zzz[i];
             System.out.println(x + " x " + zzz[i]);
         }
